@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Frutiger';
+    src:url("../fonts/Frutiger\ Bold.ttf");
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: white;
+    padding: 40px;
+    margin: -10px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+header img#marca{
+    width: 400px;
+    display: block;
+    
+}
+
+nav#menu{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63,22, 91);
+    margin: -20px -10px -10px -10px;
+
+}
+
+nav#menu ul{
+    position: relative;
+    left: -15px;
+    list-style:none;
+
+
+}
+
+nav#menu li{
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Frutiger';
+
+}
+div#slider img{
+    width: 1510px;
+    padding: 10px 0 0 0;
+}
+
+
